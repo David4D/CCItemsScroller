@@ -455,7 +455,7 @@
             isY = (touchY >= self.position.y && touchY <= self.position.y + item.contentSize.height);
         }
         if(_orientation == CCItemsScrollerVertical){
-            isX = (touchX >= item.position.x && touchX <= item.contentSize.width);
+            isX = (touchX >= self.position.x && touchX <= self.contentSize.width);
             isY = (touchY >= item.position.y && touchY <= item.position.y + item.contentSize.height);
         }
         
